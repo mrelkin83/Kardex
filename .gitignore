@@ -1,0 +1,34 @@
+# --- Documentos personales / ajenos al proyecto -----------------------------
+# Los contratos .docx de la raiz entran aqui: nunca deben subir al repositorio
+*.docx
+*.doc
+*.pdf
+
+# --- Datos y respaldos: no van al control de versiones ----------------------
+*.xlsx
+*.xls
+*.zip
+*.rar
+*.7z
+*.sql.gz
+*.bak
+*.old
+
+# --- Credenciales por servidor (se crean en cada despliegue) ----------------
+config/credenciales.php
+.env
+
+# --- Herramientas y editores ------------------------------------------------
+.claude/
+.vscode/
+.idea/
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Informes internos de auditoria: no se publican -------------------------
+AUDITORIA.md
+PLAN_CORRECCION.md
+img/AUDITORIA.md
+img/PLAN_CORRECCION.md
